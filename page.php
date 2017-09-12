@@ -19,10 +19,5 @@
 </div>
 <?php get_footer(); ?>
 <?php get_sidebar(); ?>
-<a href="#" class="os-back-to-top"></a>
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/infinitescroll.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/masonry.pkgd.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/imagesloaded.min.js"></script>
-<script async type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/ndt.js"></script>
 </body>
 </html>
