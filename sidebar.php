@@ -4,16 +4,12 @@
     <!-- LOGO -->
     <div class="logo">
         <a href="<?php bloginfo('url'); ?>">
-            <center><span>Nantes D'antan</span></center>
+            <img class="logoNDT" src="<?php bloginfo('template_directory'); ?>/images/logo-nantes-dantan.svg" alt="Nantes D'antan" />
         </a>
     </div>
     
-    <div class="divider"></div>
-    
     <!-- RECHERCHE -->
     <?php include(TEMPLATEPATH . '/searchform.php'); ?>
-    
-    <div class="divider"></div>
     
     <!-- MENU 
     <div class="os_menu">

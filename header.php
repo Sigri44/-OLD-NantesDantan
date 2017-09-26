@@ -30,7 +30,7 @@
             <span class="sidebar-toggler-label">Sidebar</span>
         </a>
         <a href="http://nantesdantan.free-h.net/" class="logo">
-            <span>Nantes D'antan</span>
+            <img class="logoNDT" src="<?php bloginfo('template_directory'); ?>/images/logo-nantes-dantan.svg" alt="Nantes D'antan" />
         </a>
     </div>
     <div class="sidebar-main-toggler">
