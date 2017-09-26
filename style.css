@@ -632,7 +632,7 @@ ol, ul {
 
 
 /** RESPONSIVE **/
-@media screen and (max-width: 991px) and (-webkit-device-pixel-ratio: 2), screen and (max-width: 991px) and (-webkit-device-pixel-ratio: 1.5), screen and (max-width: 991px) and (-webkit-device-pixel-ratio: 3), {
+@media only screen and (min-device-width : 320px) and (max-device-width : 736px) {    
     .single p {
         font-size: 130%;
     }
