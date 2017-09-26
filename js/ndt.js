@@ -1,11 +1,10 @@
 jQuery.noConflict();
 
-/**
- * Infinite Scroll + Masonry + ImagesLoaded
- */
+/* Infinite Scroll + Masonry + ImagesLoaded */
 (function () {
     "use strict";
 	var $container = jQuery('#grid-container');
+    
 	$container.imagesLoaded(function () {
 		$container.masonry({
 			itemSelector: '.grid-item',
@@ -19,7 +18,7 @@ jQuery.noConflict();
 		itemSelector : ".grid-item",
         loading: {
             finishedMsg: 'Toutes les photos ont été chargées.',
-            img : '/wp-content/themes/nantesdantan/images/ajax-loader/loader-blue.gif'
+            img : "wp-content/themes/nantesdantan/images/ajax-loader/loader-blue.gif"
         }
     },
 		function (newElements) {
