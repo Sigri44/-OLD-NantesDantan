@@ -449,7 +449,7 @@ article.ndt-page-box .post-title {
 	margin-bottom: 30px; margin-top: 30px;
 }
 article.ndt-page-box .post-title a {
-	font-weight: 600; color: #2c2d2f; font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif; line-height: 50px;
+	font-weight: 600; color: #2c2d2f; font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif; line-height: 1.2;
 }
 .home .post-meta-top, .single .post-meta-top, .archive .post-meta-top, .search .post-meta-top {
 	border-bottom: 1px solid #e0e0e0; border-top: 1px solid #e0e0e0; padding: 15px 0px; margin-bottom: 30px;
@@ -632,7 +632,7 @@ ol, ul {
 
 
 /** RESPONSIVE **/
-@media only screen and (min-device-width : 320px) and (max-device-width : 736px) {    
+@media only screen and (min-device-width : 320px) and (max-device-width : 736px) {
     .single p {
         font-size: 130%;
     }
@@ -652,22 +652,22 @@ ol, ul {
     p {
         font-size: 240%; text-align: justify; padding: 2%; line-height: 1.3;
     }
-    article.ndt-post-box .post-title {
+    article .post-title {
         padding: 4% 0; text-align: center;
     }
-    article.ndt-post-box .post-title a {
+    article .post-title a {
         font-size: 250%; line-height: normal;
     }
-    article.ndt-post-box ul.post-tags {
+    article ul.post-tags, article ul.post-categories {
         width: 100%;
     }
-    article.ndt-post-box ul.post-tags li {
+    article ul.post-tags li, article ul.post-categories li {
         padding: 1% 0%;
     }
     .meta-date i, .meta-date time, .meta-author {
         font-size: 200% !important;
     }
-    article.ndt-post-box ul.post-tags li a, article.ndt-post-box ul.post-categories li a {
+    article ul.post-tags li a, article ul.post-categories li a {
         font-size: 300% !important; line-height: 1.5 !important;
     }
     .single .post-categories, .single .post-tags, .single .post-categories li, .single .post-tags li {
@@ -698,7 +698,7 @@ ol, ul {
         font-size: 150%;
     }
     .comment-respond .comment-form input#submit {
-        font-size: 61px;
+        font-size: 35px;
     }
     .comment-respond .comment-form p input[type="text"], .comment-respond .comment-form p input[type="url"], .comment-respond .comment-form p input[type="email"], .comment-respond .comment-form p textarea {
         font-size: 200%; height: 90px;
@@ -726,6 +726,16 @@ ol, ul {
     }
     .category article.ndt-post-box ul.post-categories {
         margin-top: 7px !important;
+    }
+    .post-navigation-unique {
+        font-size: 40px;
+    }
+    .post-navigation-previous .caption, .post-navigation-next .caption {
+        margin: 10px 0;
+        font-size: 30px;
+    }
+    .h3, h3 {
+        font-size: 40px !important;
     }
 }
 
