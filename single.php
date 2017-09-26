@@ -35,9 +35,7 @@
                                 <ul class="post-tags">
                                     <?php the_tags('<li>','</li><li>','</li>'); ?>
                                 </ul>
-                                <ul class="post-categories">
-                                    <li><?php the_category() ?></li>
-                                </ul>
+                                <?php the_category() ?>
                             </div>
                         </div>
                     </div>
